@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      setTimeout(function() {
+        $("#main").removeClass("is-loading");
+      }, 100)
+      });
+    </script>
+  </head>
+  <body>
+    <div id="main" class="is-loading">  
+      <h2><a href="#">VIEW GALLERY</a></h2>
+    </div>
+  </body>
+</html>
